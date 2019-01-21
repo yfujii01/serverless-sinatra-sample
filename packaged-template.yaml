@@ -56,7 +56,7 @@ Resources:
     Type: AWS::Serverless::Api
   SinatraFunction:
     Properties:
-      CodeUri: s3://f01-sample-sinatra-application/47797743728b1b52b24defcb633ec83e
+      CodeUri: s3://f01-sample-sinatra-application/7a6112636681d3f12d500255c0553435
       Events:
         SinatraApi:
           Properties:

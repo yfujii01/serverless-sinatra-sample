@@ -42,3 +42,7 @@ ls_endpoint:		# エンドポイント一覧の表示
 
 test:			# テスト実行
 	bundle exec rspec
+
+start_local:		# ローカル実行
+	# dockerが必要
+	sam local start-api
